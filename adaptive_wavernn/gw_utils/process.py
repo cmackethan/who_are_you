@@ -11,9 +11,9 @@ import json
 # This is where the raw files will be process to obtain the data we are looking for
 # which includes the praat table (formants), acoustic table (phonemes), bandwidth extractor
 # Import any new functionality here
-from utils.preprocess import phonemizer
-from utils.preprocess import praatformant
-from utils.preprocess.bandwith_extractor import *
+from gw_utils.preprocess import phonemizer
+from gw_utils.preprocess import praatformant
+from gw_utils.preprocess.bandwith_extractor import *
 
 
 def changecwd(path):

@@ -4,14 +4,14 @@ config = {
 		These are all paths in the Kramer server
 	'''
 	#useful directories
-	'rootdir' : '/home/lvargas/shared/audio/guesswho',
-	'datadir' : '/home/lvargas/shared/audio/guesswho/actual_data',
-	'celebrity_datadir' : '/home/lvargas/shared/audio/guesswho/celebrity_data/celebrity_data',
+	'rootdir' : '/home/ugrads/nonmajors/cmackethan/CS4274/who_are_you',
+	'datadir' : '/home/ugrads/nonmajors/cmackethan/CS4274/who_are_you/actual_data',
+	'celebrity_datadir' : '/home/ugrads/nonmajors/cmackethan/CS4274/who_are_you/celebrity_data',
 
 	#Sentences in the correct order
-	'master_sentence_file' : '/home/lvargas/shared/audio/guesswho/master_sentences.txt',
-	'test_sentence_file' :	'/home/lvargas/shared/audio/guesswho/test_sentence.txt',
+	'master_sentence_file' : '/home/ugrads/nonmajors/cmackethan/CS4274/who_are_you/adaptive_wavernn/gw_utils/master_sentences.txt',
+	'test_sentence_file' :	'/home/ugrads/nonmajors/cmackethan/CS4274/who_are_you/adaptive_wavernn/gw_utils/test_sentence.txt',
 
 	#Files used for phone alignment
-	'arpa_to_ipa_file' :'/home/lvargas/shared/audio/guesswho/configdata/arpa-to-ipa-dict.txt'
+	'arpa_to_ipa_file' :'/home/ugrads/nonmajors/cmackethan/CS4274/who_are_you/adaptive_wavernn/gw_utils/arpa-to-ipa-dict.txt'
 }
